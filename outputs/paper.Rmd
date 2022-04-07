@@ -1,0 +1,46 @@
+---
+title: "Exploring statistics of Premier League 2018/19"
+author: "Dai Moroi"
+date: "April 6th 2022"
+output:
+  bookdown::pdf_document2:
+    toc: no
+abstract: "This paper analyzes the basic statistics of England proffesional soccer league, Premier League, to figure out what makes the team strong and also examines statistical trends that the league has. The result indicates that storong teams are superiour in terms of the percentage of goal scored out of total number of shots, while average possession doesn't really matter to game results. \\par \\textbf{Keywords:} football, soccer, Premier League"
+thanks: 'Code and data are available at: [github.com/moroidai/Final-Paper](https://github.com/moroidai/Final-Paper).'
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+
+if (!require("bookdown")) install.packages("bookdown")
+if (!require("tidyverse")) install.packages("bookdown")
+library(tidyverse)
+library(bookdown)
+
+```
+
+# Introduction
+
+What makes the team strong? What kind of characteristics does a strong team have? To answer those questions with convincing stories, statistics can play a essential role. Since the Internet enabled us to accumulate data easily, use of data has been featured in the world of sports, including soccer. This paper takes the example of 2018-19 season of England professional soccer league, Premier League, and examines its basic statistics, such as goals, possession rate, the number of shots, etc., from various aspects.
+
+
+This paper uses data from a website, [FootyStats] (https://footystats.org/), and the analysis for this paper uses the R statistical programming language [@citeR]. First, I explore the overview of the statistics to understand the characteristics of the league. Then, I will examine which kind of data is most positively correlated with the league position to figure out the feature of strong teams by plotting data and calculating the correlation coefficient between league position and some particular data.
+
+
+The remainder of this paper is structured as follows: Section 2 discusses the data using graphs and tables. This section also explains the methodology that the data was collected and bias they have. Section 3 discusses the model, Section 4 presents the results, and finally Section 5 discusses the findings and weaknesses to be overcome.
+
+
+# Data
+
+
+# Model
+
+
+
+# Results
+
+
+
+
+# Discussion
+
